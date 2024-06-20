@@ -1,10 +1,9 @@
 {
-    "title":"Hi Jack",
+    "title":"Jack",
     "subTitle":"Here are some things I want to share, yet since no one is listening, I put them here.",
     "avatarUrl":"https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/main/userAvatar.jpg",
-    "displayTitle":"Meekdai",
-"homeUrl":"http://www.baidu.com",
-"faviconUrl":"https://github.com/HiJack2Code/HiJack2Code.github.io/blob/main/moon.svg",
+    "displayTitle":"Hi Jack",
+"faviconUrl":"https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/c71e81eeccbd59c214372beaf67decfa1d81997a/moon.svg",
 "email":"HiJack2code@163.com",
 "startSite":"06/20/2024",
 "filingNum":"预留位",
@@ -27,6 +26,6 @@
 "showPostSource":1,
 "rssSplit":"sentence",
 "bottomText":"转载请注明出处",
-"ogImage":"",
+"ogImage":"https://github.com/HiJack2Code/HiJack2Code.github.io/blob/main/-5305393163550182014_99.jpg?raw=true",
     "GMEEK_VERSION":"last"
 }
