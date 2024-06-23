@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link rel="icon" href="https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/c71e81eeccbd59c214372beaf67decfa1d81997a/moon.svg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="一. 单选题（共 21 题，42.0 分）
+-------------------------------
+
+### 1\. (单选题, 2.0 分) 对于一棵具有n个结点、度为4的树来说（  ）。">
+<meta property="og:title" content="UFE_Algorithms & Data Structures_OG_Part2">
+<meta property="og:description" content="一. 单选题（共 21 题，42.0 分）
+-------------------------------
+
+### 1\. (单选题, 2.0 分) 对于一棵具有n个结点、度为4的树来说（  ）。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://blog.hijack.eu.org/post/UFE_Algorithms%20%26%20Data%20Structures_OG_Part2.html">
+<meta property="og:image" content="https://github.com/HiJack2Code/HiJack2Code.github.io/blob/main/-5305393163550182014_99.jpg?raw=true">
+<title>UFE_Algorithms & Data Structures_OG_Part2</title>
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">UFE_Algorithms & Data Structures_OG_Part2</h1>
+<div class="title-right">
+    <a href="http://blog.hijack.eu.org" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/HiJack2Code/HiJack2Code.github.io/issues/3" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h2>一. 单选题（共 21 题，42.0 分）</h2>
+<h3>1. (单选题, 2.0 分) 对于一棵具有n个结点、度为4的树来说（  ）。</h3>
+<ul>
+<li>A. 树的高度最多是n-3</li>
+<li>B. 树的高度最多是n-4</li>
+<li>C. 第i层上最多有4（i-1）个结点</li>
+<li>D. 至少在某一层上正好有4个结点</li>
+</ul>
+<p>_我的答案:_A <em>正确答案:</em> A</p>
+<h3>2. (单选题, 2.0 分) 在一棵3次树中，度为3的结点数为2个，度为2的结点有1个，度为1的结点有2个，则度为0的结点有（  ）。</h3>
+<ul>
+<li>A. 4</li>
+<li>B. 5</li>
+<li>C. 6</li>
+<li>D. 7</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<h3>3. (单选题, 2.0 分) 假设一棵树种每个结点值为单个字符，其层次遍历序列为ABCDEFG，则根结点是（  ）。</h3>
+<ul>
+<li>A. A</li>
+<li>B. B</li>
+<li>C. G</li>
+<li>D. 以上都不对</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> A</p>
+<h3>4. (单选题, 2.0 分) 二叉树和度为2的树的相同之处包括（  ）。</h3>
+<ul>
+<li>A. 每个结点都有一个或两个孩子结点</li>
+<li>B. 至少有一个根结点</li>
+<li>C. 至少有一个度为2的结点</li>
+<li>D. 每个结点最多只有两个孩子结点</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>5. (单选题, 2.0 分) 一棵完全二叉树上有1001个结点，其中叶子结点的个数是（  ）。</h3>
+<ul>
+<li>A. 250</li>
+<li>B. 501</li>
+<li>C. 254</li>
+<li>D. 505</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> B</p>
+<h3>6. (单选题, 2.0 分) 若二叉树的中序序列是abcdef,且c为根结点，则（  ）。</h3>
+<ul>
+<li>A. 结点c有两个孩子</li>
+<li>B. 二叉树有两个度为0的结点</li>
+<li>C. 二叉树的高度是5</li>
+<li>D. 以上都不对</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> A</p>
+<h3>7. (单选题, 2.0 分) 在任何一棵二叉树中，如果结点a有左孩子b、右孩子c，则在结点的先序序列、中序序列、后序序列中，（  ）。</h3>
+<ul>
+<li>A. 结点b一定在结点a的前面</li>
+<li>B. 结点a一定在结点c的前面</li>
+<li>C. 结点b一定在结点c的前面</li>
+<li>D. 结点a一定在结点b的前面</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<h3>8. (单选题, 2.0 分) 若某棵二叉树的先序序列和后序序列正好相反，则该二叉树一定是（ ）。</h3>
+<ul>
+<li>A. 空或者只有一个结点</li>
+<li>B. 完全二叉树</li>
+<li>C. 二叉排序树</li>
+<li>D. 高度等于结点数</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>9. (单选题, 2.0 分) 在中序线索二叉树（带头结点）中，p结点的左子树为空的充要条件是（）。</h3>
+<ul>
+<li>A. p-&gt;lchild==null</li>
+<li>B. p-&gt;ltag==1</li>
+<li>C. p-&gt;ltag==1且p-&gt;lchild==null</li>
+<li>D. 以上都不对</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> B</p>
+<h3>10. (单选题, 2.0 分) 设a、b为一棵二叉树上的两个结点，在采用中序遍历时，a在b之前的条件是（ ）。</h3>
+<ul>
+<li>A. a在b的右方</li>
+<li>B. a是b的祖先</li>
+<li>C. a在b的左方</li>
+<li>D. a是b的子孙</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<h3>11. (单选题, 2.0 分) 若一棵二叉树具有10个度为2的结点，5个度为1 的结点，则度为0的结点个数是（）。</h3>
+<ul>
+<li>A. 9</li>
+<li>B. 11</li>
+<li>C. 15</li>
+<li>D. 不确定</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> B</p>
+<h3>12. (单选题, 2.0 分) 设有13个值，用它们组成一棵哈夫曼树，则该哈夫曼树共有（）个结点。</h3>
+<ul>
+<li>A. 13</li>
+<li>B. 12</li>
+<li>C. 26</li>
+<li>D. 25</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>13. (单选题, 2.0 分) 带权有向图G用邻接矩阵A存储，则顶点i的入度等于A中（）。</h3>
+<ul>
+<li>A. 第i行非无穷元素之和</li>
+<li>B. 第i列非无穷元素之和</li>
+<li>C. 第i行非无穷元素且非0元素个数</li>
+<li>D. 第i列非无穷元素且非0元素个数</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>14. (单选题, 2.0 分) 无向图的邻接矩阵是一个（）。</h3>
+<ul>
+<li>A. 对称矩阵</li>
+<li>B. 零矩阵</li>
+<li>C. 上三角矩阵</li>
+<li>D. 对角矩阵</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> A</p>
+<h3>15. (单选题, 2.0 分) 在一个无向图中，所有顶点的度之和等于边数的（）倍。</h3>
+<ul>
+<li>A. 1/2</li>
+<li>B. 1</li>
+<li>C. 2</li>
+<li>D. 4</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<h3>16. (单选题, 2.0 分) 一个有n个顶点的无向图，最多有（）条边。</h3>
+<ul>
+<li>A. n</li>
+<li>B. n(n-1)</li>
+<li>C. n(n-1)/2</li>
+<li>D. 2n</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<h3>17. (单选题, 2.0 分) 具有6个顶点的无向图，至少应该有（）条边才可能是一个连通图。</h3>
+<ul>
+<li>A. 5</li>
+<li>B. 6</li>
+<li>C. 7</li>
+<li>D. 8</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> A</p>
+<h3>18. (单选题, 2.0 分) 若图的邻接矩阵中主对角线上的元素全是0，其余元素全是1，则可以断定该图一定是（）。</h3>
+<ul>
+<li>A. 无向图</li>
+<li>B. 非带权图</li>
+<li>C. 有向图</li>
+<li>D. 完全图</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>19. (单选题, 2.0 分) 如果从无向图的任一顶点出发进行一次深度优先遍历即可访问所有的顶点，则该图一定是（）。</h3>
+<ul>
+<li>A. 完全图</li>
+<li>B. 连通图</li>
+<li>C. 有回路</li>
+<li>D. 一棵树</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> B</p>
+<h3>20. (单选题, 2.0 分) 采用邻接矩阵存储的图的广度优先遍历算法类似于二叉树的（）算法。</h3>
+<ul>
+<li>A. 先序遍历</li>
+<li>B. 中序遍历</li>
+<li>C. 后序遍历</li>
+<li>D. 层次遍历</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> D</p>
+<h3>21. (单选题, 2.0 分) 有一个有序表，R[1...13]=,当采用二分查找法查找值为82的结点时，经过（）次比较后查找成功。</h3>
+<ul>
+<li>A. 1</li>
+<li>B. 2</li>
+<li>C. 4</li>
+<li>D. 8</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> C</p>
+<p><em>答案解析：</em></p>
+<h2>二. 填空题（共 12 题，24.0 分）</h2>
+<h3>22. (填空题, 2.0 分) 设某棵树中的结点值为单个字符，其后根遍历序列为ABCDEFG,则根结点值为（  ）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) G</p>
+<h3>23. (填空题, 2.0 分) 在一棵度为2的树中，其结点个数最少为（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 3</p>
+<p><em>答案解析：</em></p>
+<h3>24. (填空题, 2.0 分) 一棵具有n个结点的非空树中，其中所有度之和等于（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) n-1</p>
+<h3>25. (填空题, 2.0 分) 高度为h、度为m（m&gt;=2）的树中，最少有（）个结点，最多有（）个结点。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) h+m-1</p>
+<p>(2)</p>
+<p>(mh-1)/(m-1)</p>
+<h3>26. (填空题, 2.0 分) 一棵含有n个结点的满二叉树有（）个度为1的结点，（）个分支结点，（）个叶子结点，该满二叉树的高度为（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 0</p>
+<p>(2)</p>
+<p>n/2</p>
+<p>(3) （n/2）+1</p>
+<p>(4)</p>
+<p>log2(n+1)</p>
+<h3>27. (填空题, 2.0 分) 线索二叉树的左线索指向其（）结点，右线索指向其（）结点。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 前驱</p>
+<p>(2) 后继</p>
+<h3>28. (填空题, 2.0 分) 有n个顶点的无向图最多有（）条边。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) n(n-1)/2</p>
+<h3>29. (填空题, 2.0 分) 在有n个顶点的有向图中，每个顶点的度最大可达（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 2(n-1)</p>
+<h3>30. (填空题, 2.0 分) 一个图的（）存储结构是唯一的，而（）存储结构不一定是唯一的。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 邻接矩阵</p>
+<p>(2) 连接表</p>
+<h3>31. (填空题, 2.0 分) 有n个顶点的有向图最多有（）条边。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) n(n-1)</p>
+<h3>32. (填空题, 2.0 分) 对于一个具有n个顶点，e条边的无向图，若采用连接表表示，则头结点数组的大小为（），边结点总数为（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) n</p>
+<p>(2) 2e</p>
+<h3>33. (填空题, 2.0 分) 对于n个顶点的不带权无向图，采用邻接矩阵表示，求图中边数的方法（），判断任意两个顶点i和j是否有边的方法是（），求任意一个顶点的度的方法（）。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>(1) 邻接矩阵为1的个数除以2</p>
+<p>(2) A[i][j]是否为1</p>
+<p>(3) 计算该行或该列中1的个数</p>
+<h2>三. 判断题（共 13 题，13.0 分）</h2>
+<h3>34. (判断题, 1.0 分) 树形结构中，每个结点都有一个前驱结点。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>35. (判断题, 1.0 分) 度为m的树中至少有一个度为m的结点，不存在度大于m的结点。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>36. (判断题, 1.0 分) 在一棵树中，处于同一层上的各结点之间都存在兄弟关系。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>37. (判断题, 1.0 分) 在n（n&gt;2）个结点的二叉树中至少有一个度为2的结点。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>38. (判断题, 1.0 分) 完全二叉树中的每个结点或者没有左孩子或者有两个孩子。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>39. (判断题, 1.0 分) 当二叉树中的结点数多于1个时，不可能根据结点的先序序列和后序序列唯一地确定该二叉树的逻辑结构。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>40. (判断题, 1.0 分) 哈夫曼树中不存在度为1的结点。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>41. (判断题, 1.0 分) 存在这样的二叉树：对它采用任何次序的遍历，结果都相同。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>42. (判断题, 1.0 分) 将一棵树转换为二叉树，根节点没有左子树。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>43. (判断题, 1.0 分) 二叉树就是度为2的树。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h3>44. (判断题, 1.0 分) 在有向图中，所有顶点的入度之和等于出度之和。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>45. (判断题, 1.0 分) 连通图的生成树中包含了图中所有的顶点。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 对</p>
+<h3>46. (判断题, 1.0 分) 最小生成树是指边数最少的生成树。</h3>
+<ul>
+<li>A. 对</li>
+<li>B. 错</li>
+</ul>
+<p><em>我的答案:</em> <em>正确答案:</em> 错</p>
+<h2>四. 简答题（共 10 题，50.0 分）</h2>
+<h3>47. (简答题, 5.0 分)</h3>
+<p>已知度为k的树中，其度为1、2、···、k的结点数分别为n1、n2、···nk。求该树的结点总数n和叶子结点数n0，并给出推导过程。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8b1a9a5523ecaa22c7ca484fed37cc6125f3d9e3a7c9a42e3666e6bfe984fa20/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f31383734333234323738323963656231356662653934363161323435646132652e706e67"><img src="https://camo.githubusercontent.com/8b1a9a5523ecaa22c7ca484fed37cc6125f3d9e3a7c9a42e3666e6bfe984fa20/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f31383734333234323738323963656231356662653934363161323435646132652e706e67" alt="" data-canonical-src="https://p.ananas.chaoxing.com/star3/origin/187432427829ceb15fbe9461a245da2e.png" style="max-width: 100%;"></a></p>
+<p><em>答案解析：</em></p>
+<h3>48. (简答题, 5.0 分)</h3>
+<p>一棵二叉树的先序、中序和后序序列分别如下，其中有一部分未显示出来，试求出空格处的内容，并画出该二叉树。</p>
+<p>先序序列：   B   F   ICEH   G</p>
+<p>中序序列：D   KFIA   EJC  </p>
+<p>后序序列：   K   FBHJ   G   A</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>先序：ABDFKICEHJG   中序：DBKFIAHEJCG  后序：DKIFBHJEGCA</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ae92aea0cea2ccfd45e5e50df77b2ee48e8dc9a024ef0729fe45d7304d6a5bf3/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f65613639386662333437363137613965366338663362323435303262396364632e706e67"><img src="https://camo.githubusercontent.com/ae92aea0cea2ccfd45e5e50df77b2ee48e8dc9a024ef0729fe45d7304d6a5bf3/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f65613639386662333437363137613965366338663362323435303262396364632e706e67" alt="" data-canonical-src="https://p.ananas.chaoxing.com/star3/origin/ea698fb347617a9e6c8f3b24502b9cdc.png" style="max-width: 100%;"></a></p>
+<p><em>答案解析：</em></p>
+<h3>49. (简答题, 5.0 分)</h3>
+<p>有一个带权有向图如下所示，回答以下问题：</p>
+<p>（1）给出该图的邻接表表示</p>
+<p>（2）给出该图的逆邻接表表示。</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3d5e868046a5aed54011a7c6c22d169af7fee0d83413c8db2abe744b0c5f52da/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f61343635353031613337616334373532313263383133363434623632643135352e706e67"><img src="https://camo.githubusercontent.com/3d5e868046a5aed54011a7c6c22d169af7fee0d83413c8db2abe744b0c5f52da/68747470733a2f2f702e616e616e61732e6368616f78696e672e636f6d2f73746172332f6f726967696e2f61343635353031613337616334373532313263383133363434623632643135352e706e67" alt="" data-canonical-src="https://p.ananas.chaoxing.com/star3/origin/a465501a37ac475212c813644b62d155.png" style="max-width: 100%;"></a></p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p><em>答案解析：</em></p>
+<h3>50. (简答题, 5.0 分) 给定7个字符a~g，它们的权值集合W=｛2，3，4，7，5，9，12｝，试构造关于W的一课哈夫曼树，求其带权路径长度WPL和各个字符的哈夫曼编码。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p><em>答案解析：</em></p>
+<h3>51. (简答题, 5.0 分)</h3>
+<p> 有一个由整数元素构成的非空单链表A，设计一个算法，将其拆分成两个单链表A和B，使得单链表A中含有所有偶数结点，单链表B中含有所有奇数结点，且保持原来的相对次序。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>Void Split( LinkNode *&amp;A, LinkNode  *&amp;B)</p>
+<p>{  LinkNode *p=A-next,*ra,*rb;</p>
+<p>  ra=A;</p>
+<p>  B=( LinkNode*)malloc(sizeof(LinkNode));</p>
+<p>  rb=B;</p>
+<p>  while(p!=null)</p>
+<p>{ if (p-&gt;data%2==0)</p>
+<p>   { ra-&gt;next=p;</p>
+<p>    ra=p;</p>
+<p>    P=p-&gt;next;</p>
+<p>}</p>
+<p>else { rb-&gt;next=p;</p>
+<p>     rb=p;</p>
+<p>     P=p-next;</p>
+<p>}</p>
+<p>}</p>
+<p>ra-&gt;next=rb-&gt;next=null;</p>
+<p>}</p>
+<p><em>答案解析：</em></p>
+<h3>52. (简答题, 5.0 分)</h3>
+<p>设A和B是两个带头结点的单链表，其表中的元素递增有序。试编写一个算法将A和B归并成一个按元素值递减有序的单链表C，并要求辅助空间为O(1)。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>{ linknode  *p=A-&gt;next, *q=B-&gt;next ,  *r;</p>
+<p>  Free(B);</p>
+<p>  C=A;</p>
+<p>  C-&gt;next=null;</p>
+<p>  While(p!=null &amp;&amp; q!=null)</p>
+<p>   {  if (p-&gt;data <code class="notranslate">&lt;q-&gt;</code>data)</p>
+<p>         { r=p-&gt;next;</p>
+<p>          p-&gt;next=C-&gt;next;</p>
+<p>          C-&gt;next=p;</p>
+<p>          p=r;</p>
+<p>}</p>
+<p>      else{ r=q-&gt;next;</p>
+<p>          q-&gt;next=C-&gt;next;</p>
+<p>          C-&gt;next=q;</p>
+<p>          q=r;</p>
+<p>}</p>
+<p>}</p>
+<p>If(q!=null)  p=q;</p>
+<p>while(p!=null)</p>
+<p>   {r=p-&gt;next;</p>
+<p>    p-&gt;next=C-&gt;next;</p>
+<p>    p=r;</p>
+<p>}</p>
+<p>}</p>
+<p><em>答案解析：</em></p>
+<h3>53. (简答题, 5.0 分)</h3>
+<p>假设二叉树中的每个结点值为单个字符，采用二叉链存储结构存储，设计一个算法，计算一棵给定二叉树b中的所有单分支结点个数。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>解：计算一棵二叉树的所有单分支结点个数的递归模型f（b）如下：</p>
+<p>f(b)=0    若b=null</p>
+<p>f(b)=f(b-&gt;lchild)+f(b-&gt;rchild)+1    若b节点为单分支</p>
+<p>f(b)=f(b-&gt;lchild)+f(b-&gt;rchild)   其他情况</p>
+<p>对应算法如下：</p>
+<p>int SSonNodes(BTNode *b)</p>
+<p>{ int num1,num2,n;</p>
+<p>if (b==NULL)</p>
+<p>return 0;</p>
+<p>else</p>
+<p> if((b-&gt;lchild==NULL &amp;&amp; b-&gt;rchild!=NULL) ||(b-&gt;lchild!=NULL &amp;&amp; b-&gt;rchild==NULL))</p>
+<p>n=1; //为单分支结点</p>
+<p>else</p>
+<p>n=0; //其他结点</p>
+<p>num1=SSonNodes(b-&gt;lchild); //递归求左子树中单分支结点数</p>
+<p>num2=SSonNodes(b-&gt;rchild); //递归求右子树中单分支结点数</p>
+<p>return (num1+num2+n);</p>
+<p>}</p>
+<p><em>答案解析：</em></p>
+<h3>54. (简答题, 5.0 分)</h3>
+<p>设计一个算法，删除带头结点的单链表L中data值大于或等于min、小于或等于max之间的结点（若表中有这样的结点），同时释放被删除结点的空间，这里min和max是两个给定的参数。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>void del(linknode *&amp;L,ElemType min, ElemType max)</p>
+<p>{ linknode  *pre=L, *p=pre-&gt;next;</p>
+<p> while (p!=null)</p>
+<p>   { if(p-&gt;data&gt;=min &amp;&amp; p-&gt;data&lt;=max)</p>
+<p>      { pre-&gt;next=p-&gt;next;</p>
+<p>       free(p);</p>
+<p>       P=pre-&gt;next;</p>
+<p>}</p>
+<p>     else</p>
+<p>       { pre=p;  p=pre-&gt;next;</p>
+<p>}</p>
+<p>}</p>
+<p>}</p>
+<p><em>答案解析：</em></p>
+<h3>55. (简答题, 5.0 分)</h3>
+<p> 假设二叉树中每个结点值为单个字符，采用二叉链存储结构存储，设计一个算法，将二叉树b1复制到二叉链b2中。</p>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>void Copy( BTNode *b1,BTNode *&amp;b2)</p>
+<p>{  if(b1==null)</p>
+<p>      b2=null;</p>
+<p>   else </p>
+<p>   {  b2=(BTNode*)malloc(sizeof(BTNode));</p>
+<p>      b2-&gt;data=b1-&gt;data;</p>
+<p>      Copy( b1-&gt;lchild,b2-&gt;lchild);</p>
+<p>      Copy( b1-&gt;rchild,b2-&gt;rchild);</p>
+<p>   }</p>
+<p>}</p>
+<p><em>答案解析：</em></p>
+<h3>56. (简答题, 5.0 分) 假设二叉树中的每个结点值为单个字符，采用二叉链存储结构。设计一个算法（maxnode），求一棵二叉树b中最大结点值，空树返回‘\0’。</h3>
+<p><em>我的答案：</em></p>
+<p><em>正确答案：</em></p>
+<p>Elemtype maxnode(BTNode  *b)</p>
+<p>{ Elemtype  max=b-&gt;data,max1;</p>
+<p>  if(b!=null)</p>
+<p>   {  if(b-&gt;lchild==null &amp;&amp; b-&gt;rchild==null)</p>
+<p>          return b-&gt;data;</p>
+<p>      else</p>
+<p>      {  if(b-&gt;data&gt;max)</p>
+<p>            max=b-&gt;data;</p>
+<p>        if(b-&gt;lchild!=null)</p>
+<p>            max1=maxnode(b-&gt;lchild);</p>
+<p>        if (max1&gt;max)  max=max1;</p>
+<p>        if(b-&gt;rchild!=null)</p>
+<p>           max1=maxnode(b-&gt;rchild);</p>
+<p>        if(max1&gt;max)  max=max1;</p>
+<p>        return max;</p>
+<p>      }</p>
+<p>  }</p>
+<p>return '0';</p>
+<p>}</p>
+<p><em>答案解析：</em></p></div>
+<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+</div>
+    <div id="footer">Copyright © <span id="year"></span><a href="http://blog.hijack.eu.org"> Jack </a>
+<p><a href="https://beian.miit.gov.cn/" target="_blank">预留位</a>
+<span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
+</p>
+
+<script>
+if("06/20/2024"!=""){
+    var now=new Date();
+    var startSite=new Date("06/20/2024");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("year").innerHTML=now.getFullYear();
+    if("预留位"!=""){document.getElementById("runday").innerHTML=" • "+"网站运行"+diffDay+"天"+" • ";}
+    else{document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";}
+}
+</script>
+</div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","HiJack2Code/HiJack2Code.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+</script>
+
+
+</html>
