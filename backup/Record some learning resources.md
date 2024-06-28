@@ -9,11 +9,9 @@
 |                      [DasAutoooo](https://space.bilibili.com/88270259)                      | b站up/web Dev/Linux |      bilibili personal Homepage      |
 | [鱼C-小甲鱼 b站](https://space.bilibili.com/314076440) <br />[鱼C论坛 ](https://fishc.com.cn/) | Pythoon/JS<br />Mix | bilibili personal Homepage<br />forum |
 
+## About  CrashCourse
 
-
-## About  [CrashCourse](https://thecrashcourse.com/)
-
-这是一个高质量、易于理解、课程多样化的网站。
+[CrashCourse](https://thecrashcourse.com/)是一个高质量、易于理解、课程多样化的网站。
 
 本模块主要收录汉化版视频
 
@@ -29,15 +27,11 @@
 | [vvhiskey](https://space.bilibili.com/5981968#)      | 电影创作/饮食古今/文学/<br />美国史/                                            |         |
 | [Khadijah_CAT](https://space.bilibili.com/13104482)  | 政治与政府                                                                      |         |
 
-
-
 ## About  Algorithms
 
 | Address                                         | Introduction  | Remarks |
 | ----------------------------------------------- | ------------- | ------- |
 | [hello-algo](https://www.hello-algo.com/ "hello算法") | for beginners | website |
-
-
 
 ## About Linux
 
@@ -46,15 +40,11 @@
 | [鳥哥的 Linux 私房菜](https://linux.vbird.org/ "鸟哥的Linux私房菜") |   For beginners   |        website/book        |
 |        [简说linux](https://space.bilibili.com/646178510)        | For intermediates | bilibili personal Homepage |
 
-
-
 ## About Computer Science
 
 | Address                                                                                                | Introduction | Remarks |
 | ------------------------------------------------------------------------------------------------------ | :----------: | ------- |
 | [【计算机科学速成课】[40集全/精校] - Crash Course Computer](https://www.bilibili.com/video/BV1EW411u7th/) |     科普     | English |
-
-
 
 ## About Computer Networks
 
@@ -62,15 +52,11 @@
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------- |
 | [计算机网络微课堂（有字幕无背景音乐版）](https://www.bilibili.com/video/BV1c4411d7jb/?vd_source=e58d05999349fc41f024920a537bf097) | 胡科大课程   | 网课    |
 
-
-
 ## About Python
 
 | Address                                                                                                            | Introduction | Remarks |
 | ------------------------------------------------------------------------------------------------------------------ | :----------: | ------- |
 | [《Python负基础到入门教程》](https://www.bilibili.com/video/BV1et411b76c/?vd_source=e58d05999349fc41f024920a537bf097) |     教程     | funny   |
-
-
 
 ## About JavaScript
 
