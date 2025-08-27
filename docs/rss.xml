@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Jack</title><link>http://blog.hijack.eu.org</link><description>Here are some things I want to share, yet since no one is listening, I put them here.</description><copyright>Jack</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/main/userAvatar.jpg</url><title>avatar</title><link>http://blog.hijack.eu.org</link></image><lastBuildDate>Wed, 27 Aug 2025 07:30:44 +0000</lastBuildDate><managingEditor>Jack</managingEditor><ttl>60</ttl><webMaster>Jack</webMaster><item><title>测试文章</title><link>http://blog.hijack.eu.org/post/ce-shi-wen-zhang.html</link><description>&lt;table&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Jack</title><link>http://blog.hijack.eu.org</link><description>Here are some things I want to share, yet since no one is listening, I put them here.</description><copyright>Jack</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/main/userAvatar.jpg</url><title>avatar</title><link>http://blog.hijack.eu.org</link></image><lastBuildDate>Wed, 27 Aug 2025 07:33:12 +0000</lastBuildDate><managingEditor>Jack</managingEditor><ttl>60</ttl><webMaster>Jack</webMaster><item><title>测试文章</title><link>http://blog.hijack.eu.org/post/ce-shi-wen-zhang.html</link><description>&lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' width='200'&gt;&lt;/td&gt;
 &lt;td&gt;
@@ -13,7 +13,7 @@
 &lt;table&gt;
 &lt;tr&gt;
  &lt;td&gt;
-  &lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' width='200'&gt;
+  &lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' width='230'&gt;
  &lt;/td&gt;
  &lt;td&gt;
   &lt;h1&gt; welcome!&lt;/h1&gt;
@@ -21,7 +21,7 @@
       &lt;h4&gt;I love China&lt;/h4&gt; 
  &lt;/td&gt;
   &lt;td&gt;
-  &lt;img src='https://cdn.pixabay.com/animation/2024/01/19/00/53/00-53-56-818_512.gif' alt='小猫爱心gif' width='200'&gt;
+  &lt;img src='https://cdn.pixabay.com/animation/2024/01/19/00/53/00-53-56-818_512.gif' alt='小猫爱心gif' width='230'&gt;
  &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;。</description><guid isPermaLink="true">http://blog.hijack.eu.org/post/ce-shi-wen-zhang.html</guid><pubDate>Wed, 27 Aug 2025 06:52:59 +0000</pubDate></item><item><title>壁纸</title><link>http://blog.hijack.eu.org/post/bi-zhi.html</link><description>### 漫画二次元壁纸&#13;
