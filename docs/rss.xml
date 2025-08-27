@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Jack</title><link>http://blog.hijack.eu.org</link><description>Here are some things I want to share, yet since no one is listening, I put them here.</description><copyright>Jack</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/main/userAvatar.jpg</url><title>avatar</title><link>http://blog.hijack.eu.org</link></image><lastBuildDate>Wed, 27 Aug 2025 07:35:25 +0000</lastBuildDate><managingEditor>Jack</managingEditor><ttl>60</ttl><webMaster>Jack</webMaster><item><title>测试文章</title><link>http://blog.hijack.eu.org/post/ce-shi-wen-zhang.html</link><description>&lt;table&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Jack</title><link>http://blog.hijack.eu.org</link><description>Here are some things I want to share, yet since no one is listening, I put them here.</description><copyright>Jack</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://raw.githubusercontent.com/HiJack2Code/HiJack2Code.github.io/main/userAvatar.jpg</url><title>avatar</title><link>http://blog.hijack.eu.org</link></image><lastBuildDate>Wed, 27 Aug 2025 08:27:45 +0000</lastBuildDate><managingEditor>Jack</managingEditor><ttl>60</ttl><webMaster>Jack</webMaster><item><title>测试文章</title><link>http://blog.hijack.eu.org/post/ce-shi-wen-zhang.html</link><description>&lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' width='200'&gt;&lt;/td&gt;
 &lt;td&gt;
@@ -68,11 +68,50 @@
 &#13;
 ## About  CrashCourse&#13;
 &#13;
-[CrashCourse](https://thecrashcourse.com/)是一个高质量、易于理解、课程多样化的网站。</description><guid isPermaLink="true">http://blog.hijack.eu.org/post/Record%20some%20learning%20resources.html</guid><pubDate>Mon, 24 Jun 2024 01:21:50 +0000</pubDate></item><item><title>Hello Dear~</title><link>http://blog.hijack.eu.org/post/Hello%20Dear~.html</link><description>&lt;div style='display: flex; align-items: center;'&gt;
-  &lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' style='width:30px; margin-right:20px;'&gt;
-  &lt;div&gt;
-      &lt;h2&gt; welcome!&lt;/h2&gt;
+[CrashCourse](https://thecrashcourse.com/)是一个高质量、易于理解、课程多样化的网站。</description><guid isPermaLink="true">http://blog.hijack.eu.org/post/Record%20some%20learning%20resources.html</guid><pubDate>Mon, 24 Jun 2024 01:21:50 +0000</pubDate></item><item><title>Hello Dear~ (About This Site)</title><link>http://blog.hijack.eu.org/post/Hello%20Dear~%20%28About%20This%20Site%29.html</link><description>&lt;table&gt;
+&lt;tr&gt;
+ &lt;td&gt;
+  &lt;img src='https://cdn.pixabay.com/animation/2025/06/02/00/11/00-11-22-330_256.gif' alt='纸盒小猫gif' width='200'&gt;
+ &lt;/td&gt;
+ &lt;td&gt;
+  &lt;h1&gt; welcome!&lt;/h1&gt;
       &lt;h3&gt;This's My New Place!&lt;/h3&gt; 
-      &lt;h4&gt;I love China&lt;/h4&gt; 
-  &lt;/div&gt;
-&lt;/div&gt;。</description><guid isPermaLink="true">http://blog.hijack.eu.org/post/Hello%20Dear~.html</guid><pubDate>Thu, 20 Jun 2024 10:55:56 +0000</pubDate></item></channel></rss>
+      &lt;h4&gt;😺Peace and Love❤️&lt;/h4&gt; 
+ &lt;/td&gt;
+  &lt;td&gt;
+  &lt;img src='https://cdn.pixabay.com/animation/2024/01/19/00/53/00-53-56-818_512.gif' alt='小猫爱心gif' width='200'&gt;
+ &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+### On this page, I will explain a few things to you, including the purpose of this site and the kind of content I will share, so that your time here won’t be wasted.
+
+
+
+&gt; **About this site.**
+
+```
+This is a personal blog site hosted on GitHub.
+```
+
+
+
+&gt; **What kind of content can you find here?**
+
+```
+Originally, the site was intended to record issues I encountered while learning Linux. However, as I grow older and gradually gain a deeper understanding of society and people, my reflections on the world have expanded. Therefore, the content here includes:
+- Code
+  - Linux
+  - Networking
+  - System Administration
+- Language Exploration
+  - English
+  - 中文
+  - 日本語
+- Reflections on Life
+  - Random Thoughts
+  - Personal Life Records
+  - My Views on the World
+```
+
+。</description><guid isPermaLink="true">http://blog.hijack.eu.org/post/Hello%20Dear~%20%28About%20This%20Site%29.html</guid><pubDate>Thu, 20 Jun 2024 10:55:56 +0000</pubDate></item></channel></rss>
